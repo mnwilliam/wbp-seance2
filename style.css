@@ -1,4 +1,5 @@
-/* font-family*/
+/* font-family : "Lato, sans cherif; 
+*/
 
 /* GENERAL */
 body, h1, h2 {
@@ -42,4 +43,9 @@ nav ul li a{
 
 nav a.current, nav a:hover{
     color:#4a4a4a;
+}
+
+nav ul li{
+    display: inline;
+    padding-left: 30px;
 }
