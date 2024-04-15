@@ -1,19 +1,35 @@
+/* font-family*/
+
 /* GENERAL */
-body, h1, h2
-{
+body, h1, h2 {
     margin: 0;
     padding: 0;
 }
 
-.content, section, nav
-{
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.content, section, nav {
     width: 1120px;
     margin: auto;
 }
 
-/* HEADER */
-header
-{
-    background-color:rgba(243, 162, 13, 0.955);
+a{
+    text-decoration: none;
+    color:black;
+}
 
+a:hover{
+    color:white;
+}
+
+/* HEADER */
+header {
+    background-color:rgba(243, 162, 13, 0.955);
+}
+
+/* NAVIGAITON */
+nav ul {
+    list-style: none;
 }
