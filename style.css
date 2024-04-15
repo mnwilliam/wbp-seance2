@@ -5,27 +5,33 @@ font-family: "Lato", sans-serif;
 */
  
 /*GENERAL*/
+
 body{
     font-family: "Lato", sans-serif;
 }
+
 body, h1, h2{
     margin: 0;
     padding: 0;
  
 }
+
 .content, section, nav{
     width: 1120px;
     margin: auto;
 }
+
 a{
     text-decoration: none;
     color: black;
 }
+
 a:hover{
     color: white;
 }
  
 /*HEADER*/
+
 header{
     background-color: #ff8a0d;
  
@@ -33,9 +39,11 @@ header{
 header div.content{
     position: relative;
 }
+
 .logo{
     padding: 30px;
 }
+
 .slide{
     background: url(image/product.jpg);
     height: 694px;
@@ -43,7 +51,9 @@ header div.content{
     background-position: top center;
     background-repeat: no-repeat;
 }
+
 /*NAVIGATION*/
+
 nav ul{
    list-style: none;
    font-size: 20px;
@@ -52,16 +62,20 @@ nav ul{
    top: 80px;
    right: 10px;
 }
+
 nav ul li{
     display: inline;
     padding-left: 30px;
 }
+
 nav ul li a{
     color: white;
 }
+
 nav ul li a:hover{
     color: #4a4a4a;
 }
+
 nav a.current{
     color: #4a4a4a;
 }
