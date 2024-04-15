@@ -29,6 +29,10 @@ a{
 a:hover{
     color: white;
 }
+
+.clear{
+    clear:both;
+}
  
 /*HEADER*/
 
@@ -52,7 +56,7 @@ header div.content{
     background-repeat: no-repeat;
 }
 
-/*NAVIGATION*/
+/* NAVIGATION */
 
 nav ul{
    list-style: none;
@@ -80,4 +84,23 @@ nav a.current{
     color: #4a4a4a;
 }
  
-/*MAIN*/
+/* COLONNES */
+
+.col{
+    float:left;
+    margin-right: 20px;
+}
+
+.last{
+    margin: 0;
+}
+
+.col-4-12{
+width: 360px;
+}
+
+.col-8-12{
+    width: 470px;
+}
+
+/* MAIN */
