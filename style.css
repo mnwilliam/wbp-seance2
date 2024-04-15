@@ -26,15 +26,25 @@ a:hover{
 }
 
 /* HEADER */
+
 header {
-    background-color:rgba(243, 162, 13, 0.955);
+    background-color:rgb(255, 132, 0);
+}
+
+header div.content{
+    position: relative;
 }
 
 /* NAVIGAITON */
+
+
 nav ul {
     list-style: none;
     font-size: 20px;
     font-weight: 700;
+    position: absolute;
+    top:0;
+    right:0;
 }
 
 nav ul li a{
@@ -49,3 +59,4 @@ nav ul li{
     display: inline;
     padding-left: 30px;
 }
+
