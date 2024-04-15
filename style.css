@@ -1,62 +1,72 @@
-/* font-family : "Lato, sans cherif; 
+/*
+font-family: "Roboto Condensed", sans-serif;
+font-family: "Lato", sans-serif;
+
+
+
 */
 
-/* GENERAL */
-body, h1, h2 {
-    margin: 0;
-    padding: 0;
-}
 
+/*GENERAL*/
 body{
     font-family: "Lato", sans-serif;
 }
+body, h1, h2{
+    margin: 0;
+    padding: 0;
 
-.content, section, nav {
+}
+.content, section, nav{
     width: 1120px;
     margin: auto;
 }
-
 a{
     text-decoration: none;
-    color:black;
+    color: black;
 }
-
 a:hover{
-    color:white;
+    color: white;
 }
 
-/* HEADER */
+/*HEADER*/
+header{
+    background-color: #ff8a0d;
 
-header {
-    background-color:rgb(255, 132, 0);
 }
-
 header div.content{
     position: relative;
 }
-
-/* NAVIGAITON */
-
-
-nav ul {
-    list-style: none;
-    font-size: 20px;
-    font-weight: 700;
-    position: absolute;
-    top:0;
-    right:0;
+.logo{
+    padding: 30px;
 }
-
-nav ul li a{
-    color:white;
+.slide{
+    background: url(img/product.jpg);
+    height: 694px;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
 }
-
-nav a.current, nav a:hover{
-    color:#4a4a4a;
+/*NAVIGATION*/
+nav ul{
+   list-style: none; 
+   font-size: 20px;
+   font-weight: 700;
+   position: absolute;
+   top: 80px;
+   right: 10px;
 }
-
 nav ul li{
     display: inline;
     padding-left: 30px;
 }
+nav ul li a{
+    color: white;
+}
+nav ul li a:hover{
+    color: #4a4a4a;
+}
+nav a.current{
+    color: #4a4a4a;
+}
 
+/*MAIN*/
