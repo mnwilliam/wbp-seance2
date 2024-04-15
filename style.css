@@ -32,4 +32,14 @@ header {
 /* NAVIGAITON */
 nav ul {
     list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav ul li a{
+    color:white;
+}
+
+nav a.current, nav a:hover{
+    color:#4a4a4a;
 }
