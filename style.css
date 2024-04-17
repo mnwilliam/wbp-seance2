@@ -101,10 +101,10 @@ width: 360px;
 
 .col-3-12{
     width: 400;
+    size: 20;
 }
 
 .col-6-12{
-    width: 440px;
     left:auto;
 }
 
