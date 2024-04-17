@@ -103,6 +103,11 @@ width: 360px;
     width: 400;
 }
 
+.col-6-12{
+    width: 440px;
+    left:auto;
+}
+
 .col-8-12{
     width: 470px;
 }
