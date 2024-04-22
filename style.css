@@ -99,7 +99,7 @@ nav a.current{
 width: 360px;
 }
 
-.col-3-12{
+.col .col-3-12{
     width: 400;
     size: 20;
 }
